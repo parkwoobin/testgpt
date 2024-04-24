@@ -3,7 +3,7 @@ import openai
 import datetime
 
 # https://testgpt-krqnhuu7i9salyzrprwyff.streamlit.app/
-# 
+# https://github.com/parkwoobin/testgpt
 
 def ask_gpt(prompt, model, apikey):
     client = openai.OpenAI(api_key = apikey)
